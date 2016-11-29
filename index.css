@@ -1,0 +1,47 @@
+body {
+
+font-family: 'Courgette', cursive;
+  background-color: skyblue;
+  text-align: center;
+
+
+}
+
+@font-face
+{
+font-family: christmas;
+src: url('christmas.otf'),
+url('myFancyFont.eot');
+}
+h1 {font-size: 40px}
+h1 { font-family: 'christmas', Times, serif; }
+p {
+	font-size: 20px;
+	font-family: Cambria
+
+}
+#title {
+	font-size: 80px;
+	
+}
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+.space {
+	height:40px;
+}

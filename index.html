@@ -1,1 +1,140 @@
-Sophie and Hannah
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: skyblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #3399ff;
+}
+
+.active {
+    background-color: #3399ff;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a class="jumper" href="#shopping">Shopping</a></li>
+  <li><a class="jumper" href="#eat">Eat and Drink</a></li>
+  <li><a class="jumper" href="#events">Events</a></li>
+  <li><a class="jumper" href="#social">Social Media</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#skyblue;height:1500px;">
+
+
+
+<html>
+	<head>
+		<title>Sophie's and hannah's webpage</title>
+		 <link rel="stylesheet" type="text/css" href="index.css">
+		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		 <script src="jquery.min.js"></script>
+		 <script src="yourfile.js"></script>
+	</head>
+	<body>
+
+	<div id="snowflakeContainer">
+    <p class="snowflake">*</p>
+</div>
+			<h1 id="title"> X-Mas in eXeter </h1>
+		<p>A one-stop site for all things christmas related in Exeter, Devon</p>
+
+<div class="space" id="shopping"> </div>
+<div> 
+<h1> Shopping in Exeter </h1>
+<img src="images/JL.jpg" alt="John Lewis" WIDTH=400 HEIGHT=350> <img src="images/Princesshay.jpg" alt="Princesshay" WIDTH=400 HEIGHT=350> 
+</div>
+<p> Princess Hay: 
+
+with over 70 shops in Princesshay, covering the very best of the high street names as well as some more specialised and independent stores.
+
+So if you’re looking for fashion, beauty, something for the house, or the latest gadget, we’ve probably got it right here. We’ll look forward to seeing you soon! Plus there’s even more reason to visit Princesshay Exeter, our neighbour John Lewis, is a complementary store to the great offering we have here in Princesshay.
+
+
+<div class="space" id="eat"> </div>
+<div>
+	<h1> Eat & Drink </h1>
+
+<img src="images/costa.jpg" alt="Costa's new christmas drinks" WIDTH=400 HEIGHT=350> <img src="images/terrace.jpg" alt="terrace" WIDTH=400 HEIGHT=350> 
+<p> Exeter also has some quirky pubs, cafés and restaurants which serve excellent food that is normally locally sourced as well, including Ruby Modern Diner, Tea on the Green, Fresha and Real Food Exeter.
+
+Princesshay shopping quarter is home to the familiar so if there’s a chain restaurant that you love you’ll find it there, or head to Gandy Street and Queen Street for smart cocktail bars and restaurants, including the lively Las Iguanas.
+
+When the weather’s good, Winter or Summer, there’s nothing better than enjoying a picnic outdoors. In Exeter there’s plenty of places to do this, on Exeter’s Historic Quayside, by the Cathedral, in Northernhay Gardens or on the lawns in Southernhay.
+
+Whether it’s breakfast, lunch, dinner or just coffee and a cake eating out in Exeter is a great experience – and there’s always loads to choose from! </p>
+<img src="images/firehouse.jpg" alt="Firehouse" WIDTH=400 HEIGHT=350> <img src="images/waterfront.jpg" alt="on the waterfront" WIDTH=400 HEIGHT=350>
+</div>
+
+
+<div class="space" id="events"> </div>
+<div>
+	<h1> Events </h1>
+
+<p> Exeter Christmas Market:
+
+<img src="images/market.jpg" alt="christmas market" WIDTH=1100 HEIGHT=500>
+
+
+<p>This year's Christmas Market will run from Saturday 19th November until Sunday 18th December.</p>
+
+
+<p>The Cathedral Green, at the heart of the city centre, will be brought to life by this special seasonal Market, with stalls offering unique, handmade and unusual gifts, decorations and food items – everything needed for a perfect Christmas celebration and to create a real Christmas buzz at the heart of the city.</p>
+
+</div>
+
+
+<div class="space" id="social"> </div>
+<div>
+<h1> Social Media </h1>
+</div>
+
+<div>
+	<iframe width="418" height="287" src="https://w2.countingdownto.com/1605577" frameborder="0"></iframe>
+	</div>
+<script src="fallingsnow_v6.js"></script>
+<script>
+$(document).ready(function() {
+  $(".jumper").on("click", function( e ) {
+
+    e.preventDefault();
+
+    $("body, html").animate({ 
+      scrollTop: $( $(this).attr('href') ).offset().top 
+    }, 600);
+
+  });
+});</script>
+
+	</body>
+</html>
+
+
+
